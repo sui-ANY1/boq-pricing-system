@@ -1,0 +1,500 @@
+{
+  "project_name": "XX项目013常规型20260610",
+  "unit_name": "建筑单体1#分部分项清单",
+  "parts": [
+    {
+      "part_id": "4100000001",
+      "storey": "",
+      "section_type": "分部",
+      "section_name": "单体"
+    },
+    {
+      "part_id": "4100000002",
+      "storey": "1",
+      "section_type": "分部",
+      "section_name": "门"
+    },
+    {
+      "part_id": "4100000003",
+      "storey": "1",
+      "section_type": "功能分区",
+      "section_name": "卫生间飘窗"
+    }
+  ],
+  "schemes": [
+    {
+      "profession": "建筑",
+      "category": "FBFX",
+      "part": "通用",
+      "part_name": "通用",
+      "unit": "m",
+      "unit_name": "米",
+      "name": "预制混凝土烟道",
+      "description": "成品烟道安装",
+      "materials": [
+        {
+          "id": "6672c3d4e5f60718293a4b5c",
+          "order": 1,
+          "require": true,
+          "category": "主材",
+          "dosage": 1.0,
+          "parts": [
+            {
+              "part_id": "4100000001",
+              "quantity": 3.08
+            },
+            {
+              "part_id": "4100000001",
+              "quantity": 3.08
+            },
+            {
+              "part_id": "4100000001",
+              "quantity": 3.08
+            }
+          ],
+          "material": {
+            "material_code": "10001",
+            "name": "成品烟道",
+            "spec": "无固定尺寸",
+            "unit": "m",
+            "income_price": 61.6,
+            "cost_price": 55.0,
+            "income": {
+              "name": "预制混凝土烟道工法",
+              "code": "010514001001",
+              "unit": "m",
+              "price": 64.0,
+              "sheet_code": "010514001001"
+            },
+            "cost": {
+              "name": "预制混凝土烟道工法",
+              "code": "010514001001",
+              "unit": "m",
+              "price": 52.0,
+              "sheet_code": "010514001001"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "profession": "建筑",
+      "category": "FBFX",
+      "part": "通用",
+      "part_name": "通用",
+      "unit": "t",
+      "unit_name": "吨",
+      "name": "钢爬梯",
+      "description": "屋面检修钢爬梯",
+      "materials": [
+        {
+          "id": "6673d4e5f60718293a4b5c6d",
+          "order": 1,
+          "require": true,
+          "category": "主材",
+          "dosage": 1.0,
+          "parts": [
+            {
+              "part_id": "4100000001",
+              "quantity": 0.21
+            }
+          ],
+          "material": {
+            "material_code": "10002",
+            "name": "钢爬梯",
+            "spec": "-",
+            "unit": "t",
+            "income_price": 6850.0,
+            "cost_price": 6200.0,
+            "income": {
+              "name": "钢爬梯工法",
+              "code": "010606008001",
+              "unit": "t",
+              "price": 7927.9,
+              "sheet_code": "010606008001"
+            },
+            "cost": {
+              "name": "钢爬梯工法",
+              "code": "010606008001",
+              "unit": "t",
+              "price": 10337.25,
+              "sheet_code": "010606008001"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "profession": "建筑",
+      "category": "FBFX",
+      "part": "屋面",
+      "part_name": "屋面",
+      "unit": "m",
+      "unit_name": "米",
+      "name": "屋面变形缝",
+      "description": "屋面变形缝安装",
+      "materials": [
+        {
+          "id": "6674e5f60718293a4b5c6d7e",
+          "order": 1,
+          "require": true,
+          "category": "主材",
+          "dosage": 1.0,
+          "parts": [
+            {
+              "part_id": "4100000001",
+              "quantity": 9.7
+            }
+          ],
+          "material": {
+            "material_code": "10003",
+            "name": "变形缝",
+            "spec": "屋面",
+            "unit": "m",
+            "income_price": 45.0,
+            "cost_price": 36.0,
+            "income": {
+              "name": "屋面变形缝工法",
+              "code": "010902008001",
+              "unit": "m",
+              "price": 60.89,
+              "sheet_code": "010902008001"
+            },
+            "cost": {
+              "name": "屋面变形缝工法",
+              "code": "010902008001",
+              "unit": "m",
+              "price": 47.32,
+              "sheet_code": "010902008001"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "profession": "建筑",
+      "category": "FBFX",
+      "part": "通用",
+      "part_name": "通用",
+      "unit": "m2",
+      "unit_name": "平方米",
+      "name": "普通钢制门",
+      "description": "普通钢制门安装",
+      "materials": [
+        {
+          "id": "6675f60718293a4b5c6d7e8f",
+          "order": 1,
+          "require": true,
+          "category": "主材",
+          "dosage": 1.0,
+          "parts": [
+            {
+              "part_id": "4100000002",
+              "quantity": 5.0
+            },
+            {
+              "part_id": "4100000002",
+              "quantity": 4.24
+            }
+          ],
+          "material": {
+            "material_code": "10004",
+            "name": "普通钢制门",
+            "spec": "-",
+            "unit": "m2",
+            "income_price": 584.07,
+            "cost_price": 572.39,
+            "income": {
+              "name": "普通钢制门",
+              "code": "010802001001",
+              "unit": "m2",
+              "price": 656.37,
+              "sheet_code": "010802001001"
+            },
+            "cost": {
+              "name": "普通钢制门",
+              "code": "010802001001",
+              "unit": "m2",
+              "price": 542.62,
+              "sheet_code": "010802001001"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "gf_sheets": [
+    {
+      "source": "INCOME",
+      "code": "010514001001",
+      "areacode": "330000",
+      "profession": "建筑",
+      "category": "FBFX",
+      "type": "JCGF",
+      "version": "20260101",
+      "name": "预制混凝土烟道工法",
+      "part": "通用",
+      "unit": "m",
+      "quantity": 1.0,
+      "feature": "无固定尺寸",
+      "description": "",
+      "data": {
+        "resources": [
+          {
+            "order": 1,
+            "resource_type": "ARTIFICIAL",
+            "name": "一类人工",
+            "spec": "",
+            "unit": "工日",
+            "dosage": 0.03,
+            "price": 140.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 2,
+            "resource_type": "MATERIAL",
+            "name": "成品烟道",
+            "spec": "无固定尺寸",
+            "unit": "m",
+            "dosage": 1.0,
+            "price": 61.6,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 3,
+            "resource_type": "MECHANICAL",
+            "name": "塔式起重机",
+            "spec": "",
+            "unit": "台班",
+            "dosage": 0.004,
+            "price": 650.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          }
+        ],
+        "valuations": [
+          {
+            "order": 1,
+            "category": "GLF",
+            "name": "管理费",
+            "reference": "分部分项人工费+分部分项机械费",
+            "rate": 0.15
+          },
+          {
+            "order": 2,
+            "category": "LR",
+            "name": "利润",
+            "reference": "分部分项人工费+分部分项机械费",
+            "rate": 0.07
+          }
+        ]
+      }
+    },
+    {
+      "source": "INCOME",
+      "code": "010606008001",
+      "areacode": "330000",
+      "profession": "建筑",
+      "category": "FBFX",
+      "type": "JCGF",
+      "version": "20260101",
+      "name": "钢爬梯工法",
+      "part": "通用",
+      "unit": "t",
+      "quantity": 1.0,
+      "feature": "-",
+      "description": "",
+      "data": {
+        "resources": [
+          {
+            "order": 1,
+            "resource_type": "ARTIFICIAL",
+            "name": "二类人工",
+            "spec": "",
+            "unit": "工日",
+            "dosage": 2.0,
+            "price": 150.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 2,
+            "resource_type": "MATERIAL",
+            "name": "钢爬梯",
+            "spec": "",
+            "unit": "t",
+            "dosage": 1.0,
+            "price": 6850.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 3,
+            "resource_type": "MECHANICAL",
+            "name": "电焊机",
+            "spec": "",
+            "unit": "台班",
+            "dosage": 0.5,
+            "price": 320.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          }
+        ],
+        "valuations": [
+          {
+            "order": 1,
+            "category": "GLF",
+            "name": "管理费",
+            "reference": "分部分项人工费+分部分项机械费",
+            "rate": 0.15
+          },
+          {
+            "order": 2,
+            "category": "LR",
+            "name": "利润",
+            "reference": "分部分项人工费+分部分项机械费",
+            "rate": 0.07
+          }
+        ]
+      }
+    },
+    {
+      "source": "INCOME",
+      "code": "010902008001",
+      "areacode": "330000",
+      "profession": "建筑",
+      "category": "FBFX",
+      "type": "JCGF",
+      "version": "20260101",
+      "name": "屋面变形缝工法",
+      "part": "屋面",
+      "unit": "m",
+      "quantity": 1.0,
+      "feature": "屋面",
+      "description": "",
+      "data": {
+        "resources": [
+          {
+            "order": 1,
+            "resource_type": "ARTIFICIAL",
+            "name": "二类人工",
+            "spec": "",
+            "unit": "工日",
+            "dosage": 0.12,
+            "price": 150.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 2,
+            "resource_type": "MATERIAL",
+            "name": "变形缝",
+            "spec": "",
+            "unit": "m",
+            "dosage": 1.0,
+            "price": 45.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          }
+        ],
+        "valuations": [
+          {
+            "order": 1,
+            "category": "GLF",
+            "name": "管理费",
+            "reference": "分部分项人工费",
+            "rate": 0.2
+          },
+          {
+            "order": 2,
+            "category": "LR",
+            "name": "利润",
+            "reference": "分部分项人工费",
+            "rate": 0.1
+          }
+        ]
+      }
+    },
+    {
+      "source": "INCOME",
+      "code": "010802001001",
+      "areacode": "330000",
+      "profession": "建筑",
+      "category": "FBFX",
+      "type": "JCGF",
+      "version": "20260101",
+      "name": "普通钢制门",
+      "part": "通用",
+      "unit": "m2",
+      "quantity": 1.0,
+      "feature": "-",
+      "description": "",
+      "data": {
+        "resources": [
+          {
+            "order": 1,
+            "resource_type": "ARTIFICIAL",
+            "name": "一类人工",
+            "spec": "",
+            "unit": "工日",
+            "dosage": 0.25,
+            "price": 140.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 2,
+            "resource_type": "MATERIAL",
+            "name": "普通钢制门",
+            "spec": "",
+            "unit": "m2",
+            "dosage": 1.0,
+            "price": 584.07,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          },
+          {
+            "order": 3,
+            "resource_type": "AUXILIARY_MATERIAL",
+            "name": "五金件",
+            "spec": "",
+            "unit": "套",
+            "dosage": 1.0,
+            "price": 12.0,
+            "placeholder": false,
+            "price_source": "定额价",
+            "reliability": "HIGH"
+          }
+        ],
+        "valuations": [
+          {
+            "order": 1,
+            "category": "GLF",
+            "name": "管理费",
+            "reference": "分部分项人工费+分部分项机械费",
+            "rate": 0.15
+          },
+          {
+            "order": 2,
+            "category": "LR",
+            "name": "利润",
+            "reference": "分部分项人工费+分部分项机械费",
+            "rate": 0.07
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+# ===================== 构建产物 =====================
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+*.dll.config
+
+# ===================== Visual Studio =====================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.publishsettings
+*.publishproj
+*.cache
+*.pidb
+*.svclog
+*.scc
+
+# ===================== 测试 / 覆盖率 =====================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# ===================== NuGet =====================
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ===================== SQLite 运行时数据库 =====================
+# test.db 由程序在运行目录自动创建、初始化，无需提交
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# ===================== 运行时导出的 Excel 成品 =====================
+# 以下两个为接口导出的结果文件，可由 Reset/Export 重新生成，故不提交；
+# 仓库根目录中带“模板”字样的 xlsx 为输入模板，必须保留。
+/分部分项清单.xlsx
+/工法主材汇总表.xlsx
+/其他费用清单.xlsx
+
+# ===================== 其他 =====================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+.idea/
+.DS_Store
+Thumbs.db
